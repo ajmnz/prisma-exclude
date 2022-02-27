@@ -2231,6 +2231,34 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dotenv-cli@npm:5.0.0":
+  version: 5.0.0
+  resolution: "dotenv-cli@npm:5.0.0"
+  dependencies:
+    cross-spawn: ^7.0.3
+    dotenv: ^16.0.0
+    dotenv-expand: ^8.0.1
+    minimist: ^1.2.5
+  bin:
+    dotenv: cli.js
+  checksum: 283238fd23eca018f71b1b044f765e45756defaf7457705ad8ac2e5e602fbf092979d16962508f6ea05a2f004d099ee5573add8dc84cd2abe7d6c999d09521da
+  languageName: node
+  linkType: hard
+
+"dotenv-expand@npm:^8.0.1":
+  version: 8.0.1
+  resolution: "dotenv-expand@npm:8.0.1"
+  checksum: 872a573d64c5cc1d0773df5822546fa47022124dbbf5d260756e081970dc27adf6b0822db952280b5ba3d175971ca8faf23b64204ee5003588a08152fd5e806e
+  languageName: node
+  linkType: hard
+
+"dotenv@npm:^16.0.0":
+  version: 16.0.0
+  resolution: "dotenv@npm:16.0.0"
+  checksum: 664cebb51f0a9a1d1b930f51f0271e72e26d62feaecc9dc03df39453dd494b4e724809ca480fb3ec3213382b1ed3f791aaeb83569a137f9329ce58efd4853dbf
+  languageName: node
+  linkType: hard
+
 "duplexer3@npm:^0.1.4":
   version: 0.1.4
   resolution: "duplexer3@npm:0.1.4"
@@ -4973,6 +5001,7 @@ __metadata:
     "@types/node": 17.0.21
     "@typescript-eslint/eslint-plugin": 5.12.1
     "@typescript-eslint/parser": 5.12.1
+    dotenv-cli: 5.0.0
     eslint: 8.10.0
     eslint-plugin-unused-imports: 2.0.0
     jest: 27.5.1
