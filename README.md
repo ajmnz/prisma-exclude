@@ -7,6 +7,8 @@ prisma.user.findMany({
 })
 ```
 
+[![codecov](https://codecov.io/gh/ajmnz/prisma-exclude/branch/main/graph/badge.svg?token=4YHPCUVW75)](https://codecov.io/gh/ajmnz/prisma-exclude)
+
 ---
 
 ## Table of contents
