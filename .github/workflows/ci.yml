@@ -80,6 +80,8 @@ jobs:
       - name: Run tests
         run: |
           yarn test
+        env:
+          DATABASE_URL: postgresql://johndoe:randompassword@localhost:5432/mydb?schema=public
   build:
     runs-on: ubuntu-latest
     needs:
@@ -104,3 +106,5 @@ jobs:
       - name: Build
         run: |
           yarn build
+        env:
+          DATABASE_URL: postgresql://johndoe:randompassword@localhost:5432/mydb?schema=public
