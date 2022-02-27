@@ -1,6 +1,6 @@
 {
   "name": "prisma-exclude",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "author": "ajmnz <arnau@ajb.cat>",
   "license": "MIT",
