@@ -2,3 +2,12 @@ git:
   commitMessage: "release v${version}"
 github:
   release: true
+npm:
+  publishPath: dist
+hooks:
+  before:init:
+    - yarn lint
+    - yarn format
+    - yarn typecheck
+    - yarn test
+    - yarn build
