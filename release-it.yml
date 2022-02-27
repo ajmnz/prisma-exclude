@@ -1,0 +1,4 @@
+git:
+  commitMessage: "release v${version}"
+github:
+  release: true
