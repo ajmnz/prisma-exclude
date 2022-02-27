@@ -23,7 +23,10 @@
     "test": "jest",
     "test:watch": "jest --watch",
     "test:coverage": "jest --coverage",
-    "publish": "release-it"
+    "publish": "release-it",
+    "lint": "eslint --ext=ts src",
+    "format": "prettier --write \"./src/**/*.ts\"",
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "@prisma/client": "3.10.0",

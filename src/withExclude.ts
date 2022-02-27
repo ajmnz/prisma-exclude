@@ -1,5 +1,5 @@
 import { PrismaClient } from "@prisma/client";
-import { PrismaExcludeError } from ".";
+import { PrismaExcludeError } from "./PrismaExcludeError";
 import { prismaExclude } from "./prismaExclude";
 import { ExcludeError, WithExclude } from "./types";
 
