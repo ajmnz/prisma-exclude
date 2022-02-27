@@ -2,8 +2,6 @@ git:
   commitMessage: "release v${version}"
 github:
   release: true
-npm:
-  publishPath: dist
 hooks:
   before:init:
     - yarn lint
