@@ -1,0 +1,9 @@
+{
+  "name": "simple",
+  "packageManager": "yarn@3.2.0",
+  "devDependencies": {
+    "@prisma/client": "3.10.0",
+    "prisma": "3.10.0",
+    "prisma-exclude": "1.0.1"
+  }
+}
