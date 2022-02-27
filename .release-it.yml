@@ -10,4 +10,5 @@ hooks:
     - yarn format
     - yarn typecheck
     - yarn test
+    - yarn clean
     - yarn build

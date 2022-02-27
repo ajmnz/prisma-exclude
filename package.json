@@ -1,6 +1,6 @@
 {
   "name": "prisma-exclude",
-  "version": "1.0.1",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "author": "ajmnz <arnau@ajb.cat>",
   "license": "MIT",
@@ -18,7 +18,7 @@
     "prisma omit"
   ],
   "scripts": {
-    "build": "yarn clean && tsc",
+    "build": "tsc",
     "clean": "rimraf -rf dist tsconfig.tsbuildinfo",
     "test": "jest",
     "test:watch": "jest --watch",
