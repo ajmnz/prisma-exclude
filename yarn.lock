@@ -5000,7 +5000,7 @@ __metadata:
     jest: 27.5.1
     prettier: 2.6.0
     prisma: 3.11.0
-    release-it: 14.13.0
+    release-it: 14.13.1
     rimraf: 3.0.2
     ts-jest: 27.1.3
     typescript: 4.6.2
@@ -5190,9 +5190,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"release-it@npm:14.13.0":
-  version: 14.13.0
-  resolution: "release-it@npm:14.13.0"
+"release-it@npm:14.13.1":
+  version: 14.13.1
+  resolution: "release-it@npm:14.13.1"
   dependencies:
     "@iarna/toml": 2.2.5
     "@octokit/rest": 18.12.0
@@ -5225,7 +5225,7 @@ __metadata:
     yargs-parser: 20.2.9
   bin:
     release-it: bin/release-it.js
-  checksum: dfabcdc631cfa324d17bf0f42dcbcff6e65fd37669afb4c9e2ba0904166aa6b37f7bfc57233782bae635f66a90c55285a23d425228d3bac264848704f69c1f70
+  checksum: 25946668d5d295dc1d854dfdec8fb80968296fbb0a5b033237b7eb96e5fe51e77a3b96b6650f3eeeba5b50a20ddd6a4213b344e0768f38f1d232173a75b81a2f
   languageName: node
   linkType: hard
 
