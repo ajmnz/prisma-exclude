@@ -11,6 +11,16 @@ prisma.user.findMany({
 
 ---
 
+### ❗ This project is no longer maintained
+
+Prisma has released native exclude support, addressing exactly what this project aimed to solve. More info:
+
+- `omitApi` preview feature: https://github.com/prisma/prisma/discussions/23924
+
+Thank you!
+
+<hr>
+
 ## Table of contents
 - [Table of contents](#table-of-contents)
 - [Installation](#installation)
