@@ -38,7 +38,7 @@
     "eslint": "8.57.0",
     "eslint-plugin-unused-imports": "2.0.0",
     "jest": "27.5.1",
-    "prettier": "2.8.8",
+    "prettier": "3.3.3",
     "prisma": "3.15.2",
     "release-it": "14.14.3",
     "rimraf": "3.0.2",
