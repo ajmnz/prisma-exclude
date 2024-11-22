@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 16
       - name: Cache yarn dependencies
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         id: cache-dependencies
         with:
           path: node_modules
@@ -38,7 +38,7 @@ jobs:
         with:
           node-version: 16
       - name: Restore yarn dependencies
-        uses: actions/cache@v2
+        uses: actions/cache@v3
         id: cache-dependencies
         with:
           path: node_modules
