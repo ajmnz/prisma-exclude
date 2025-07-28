@@ -15,7 +15,7 @@ jobs:
       - name: Checkout commit
         uses: actions/checkout@v3
       - name: Use Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 16
       - name: Cache yarn dependencies
@@ -37,7 +37,7 @@ jobs:
       - name: Checkout commit
         uses: actions/checkout@v3
       - name: Use Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 16
       - name: Restore yarn dependencies
@@ -64,7 +64,7 @@ jobs:
       - name: Checkout commit
         uses: actions/checkout@v3
       - name: Use Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 16
       - name: Restore yarn dependencies
@@ -90,7 +90,7 @@ jobs:
       - name: Checkout commit
         uses: actions/checkout@v3
       - name: Use Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 16
       - name: Restore yarn dependencies
