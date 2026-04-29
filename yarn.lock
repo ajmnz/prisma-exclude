@@ -2083,6 +2083,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cross-spawn@npm:^7.0.6":
+  version: 7.0.6
+  resolution: "cross-spawn@npm:7.0.6"
+  dependencies:
+    path-key: ^3.1.0
+    shebang-command: ^2.0.0
+    which: ^2.0.1
+  checksum: 8d306efacaf6f3f60e0224c287664093fa9185680b2d195852ba9a863f85d02dcc737094c6e512175f8ee0161f9b87c73c6826034c2422e39de7d6569cf4503b
+  languageName: node
+  linkType: hard
+
 "crypto-random-string@npm:^2.0.0":
   version: 2.0.0
   resolution: "crypto-random-string@npm:2.0.0"
@@ -2328,31 +2339,40 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv-cli@npm:5.1.0":
-  version: 5.1.0
-  resolution: "dotenv-cli@npm:5.1.0"
+"dotenv-cli@npm:11.0.0":
+  version: 11.0.0
+  resolution: "dotenv-cli@npm:11.0.0"
   dependencies:
-    cross-spawn: ^7.0.3
-    dotenv: ^16.0.0
-    dotenv-expand: ^8.0.1
-    minimist: ^1.2.5
+    cross-spawn: ^7.0.6
+    dotenv: ^17.1.0
+    dotenv-expand: ^12.0.0
+    minimist: ^1.2.6
   bin:
     dotenv: cli.js
-  checksum: dd060623c4b63555effe9c25c073c0c01be1f0d17a0bc35a6b18f98ca8f918a5dfdd0ff2b879152fd2df9d57b207126d04adcb0207b9f66268ba9c788c213578
+  checksum: 0dab973aa8d94163f9b17f7452f9c9b567baf67e6551c3d883f3ea1df9edbd69a9ea55cbc8e020026c9e8d8f01056087526d011c1829924483c8c72f9c17c79a
   languageName: node
   linkType: hard
 
-"dotenv-expand@npm:^8.0.1":
-  version: 8.0.1
-  resolution: "dotenv-expand@npm:8.0.1"
-  checksum: 872a573d64c5cc1d0773df5822546fa47022124dbbf5d260756e081970dc27adf6b0822db952280b5ba3d175971ca8faf23b64204ee5003588a08152fd5e806e
+"dotenv-expand@npm:^12.0.0":
+  version: 12.0.3
+  resolution: "dotenv-expand@npm:12.0.3"
+  dependencies:
+    dotenv: ^16.4.5
+  checksum: c2de321a3569981197e381be15cd982fe7b325fb234803081cd3c2e2ab725fcc66559e652ff053e176c745218f5ebe105922f87b2922bec55c715c0836a1f3f2
   languageName: node
   linkType: hard
 
-"dotenv@npm:^16.0.0":
-  version: 16.0.0
-  resolution: "dotenv@npm:16.0.0"
-  checksum: 664cebb51f0a9a1d1b930f51f0271e72e26d62feaecc9dc03df39453dd494b4e724809ca480fb3ec3213382b1ed3f791aaeb83569a137f9329ce58efd4853dbf
+"dotenv@npm:^16.4.5":
+  version: 16.6.1
+  resolution: "dotenv@npm:16.6.1"
+  checksum: e8bd63c9a37f57934f7938a9cf35de698097fadf980cb6edb61d33b3e424ceccfe4d10f37130b904a973b9038627c2646a3365a904b4406514ea94d7f1816b69
+  languageName: node
+  linkType: hard
+
+"dotenv@npm:^17.1.0":
+  version: 17.4.2
+  resolution: "dotenv@npm:17.4.2"
+  checksum: 217bf2c4696ca40acc13ad063341e9c77cedfdd75e56e4919f4cf2c6333e4f7b38a4b4067e49d006125502a61060cbe85c7eecb0644e4d99ff014693eb7e62c4
   languageName: node
   linkType: hard
 
@@ -4899,6 +4919,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"minimist@npm:^1.2.6":
+  version: 1.2.8
+  resolution: "minimist@npm:1.2.8"
+  checksum: 75a6d645fb122dad29c06a7597bddea977258957ed88d7a6df59b5cd3fe4a527e253e9bbf2e783e4b73657f9098b96a5fe96ab8a113655d4109108577ecf85b0
+  languageName: node
+  linkType: hard
+
 "minipass-collect@npm:^1.0.2":
   version: 1.0.2
   resolution: "minipass-collect@npm:1.0.2"
@@ -5526,7 +5553,7 @@ __metadata:
     "@types/node": 17.0.45
     "@typescript-eslint/eslint-plugin": 5.62.0
     "@typescript-eslint/parser": 5.62.0
-    dotenv-cli: 5.1.0
+    dotenv-cli: 11.0.0
     eslint: 8.57.1
     eslint-plugin-unused-imports: 2.0.0
     jest: 27.5.1
